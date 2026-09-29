@@ -7,9 +7,9 @@ from app.models import db_models
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
-    title="Agentic Web Tiering Platform",
-    description="A deployable AI-assisted web intelligence and tiering system.",
-    version="0.2.0",
+    title="Pokémon Unite Meta Tiering",
+    description="A FastAPI backend for loading Pokémon Unite meta data, calculating meta scores, and generating score-based tiers.",
+    version="0.1.0",
 )
 
 app.include_router(router)
