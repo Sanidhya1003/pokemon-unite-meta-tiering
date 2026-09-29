@@ -210,7 +210,7 @@ def create_pokemon_tiers(
     if not latest_snapshot:
         raise HTTPException(
             status_code=404,
-            detail="No Pokémon meta snapshot found. Run POST /meta/load-sample first, or POST /meta/fetch if the live source is available."",
+            detail="No Pokémon meta snapshot found. Run POST /meta/load-sample first, or POST /meta/fetch if the live source is available.",
         )
 
     meta_entries = (
