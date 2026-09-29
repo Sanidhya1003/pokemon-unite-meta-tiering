@@ -4,3 +4,6 @@ __pycache__/
 .env
 web_tiering.db
 .DS_Store
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
